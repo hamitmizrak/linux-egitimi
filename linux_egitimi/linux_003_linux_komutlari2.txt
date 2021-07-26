@@ -1,0 +1,120 @@
+##########################################################
+clear = ekranı temizleme
+hostname
+pwd = bulunduğumuz dizinin adresini
+
+##########################################################
+cd  = bir yere gitmek istiyorsak
+cd .
+cd ..
+cd -
+cd ~
+cd /
+
+##########################################################
+history = geçmişte yazdığımız kodları görmek için 
+
+
+##########################################################
+ls
+ls -a
+ls -al
+ls -lar  ==> tersten okumak
+
+##########################################################
+read =4 > write=2 > execute=1
+drwx =7
+-rw- =6
+lr-x =5
+
+##########################################################
+mkdir dizin
+rmdir dizin
+rm -rf dizin ==> recursive olarak siler
+
+##########################################################
+touch deneme.txt
+rm deneme.txt
+
+#############################
+echo yeni satır yazacağım >> deneme.txt
+
+##########################################################
+cat > deneme.txt
+cat >> deneme.txt
+tac deneme.txt ==>  tersten okuma
+ctrl+D
+
+
+##########################################################
+sudo apt-get install zip
+zip -r compressed_filename.zip folder_name
+
+
+##########################################################
+sudo apt-get install unzip
+unzip compressed_filename.zip -d destination_folder
+
+
+##########################################################
+mv ==> taşımak veya ismini değiştirmek iin kullanıyoruz.
+mv eski.txt yeni.txt
+mv eski.txt /deneme/klasor/
+
+
+##########################################################
+cp ==> kopyalamak için kullanıyoruz.
+cp /deneme/examp.txt  /root/kelime
+
+##########################################################
+diff deneme1.txt deneme2.txt
+
+
+##########################################################
+grep ==> arama yapmak için kullanıyoruz.
+grep hamit deneme.txt
+
+##########################################################
+appropos user add ==> appropos keyworddan ne işe yardığını bulmak
+man mkdir
+info mkdir
+where mkdir
+which ls
+whatis mkdir
+
+
+
+##########################################################
+ping sabitIP
+
+
+##########################################################
+less deneme.txt
+enter ==> satır satır incelemek
+
+##########################################################
+head -n 15 deneme.txt ==> baştan sona 15 satırı getir
+
+tail -n 15 deneme.txt ==> sondan başa 15 satırı getir
+
+##########################################################
+wget url
+
+##########################################################
+ps aux
+ps aux | grep google
+kill -9 greptenGelenPidSayisi
+
+kill -l
+
+##########################################################
+vi
+vim
+nano
+
+sudo apt-get install vim
+i ==> yazmak
+k ==> siler
+:q!  ==> birşey yapmadan çıkar
+:wq! ==> kaydederk çıkar
+

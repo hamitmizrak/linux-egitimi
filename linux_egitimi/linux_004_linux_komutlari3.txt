@@ -1,0 +1,43 @@
+##########################################################
+
+cd /etc
+vi passwd
+cat passwd
+
+sudo su
+adduser hamit
+
+passwd hamit
+whoami
+
+deluser hamit
+rm -rf hamit
+
+##########################################################
+rwx ==> r=4 w=2 x=1
+400
+200
+100
+
+chmod
+stat deneme
+
+##########################################################
+uname
+df
+df -m
+df -lh
+du
+lshw -short
+free -m
+top ==> cpu
+
+
+
+
+
+
+
+
+
+

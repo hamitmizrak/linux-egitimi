@@ -1,0 +1,22 @@
+Linux Torvalds tarafından Scratch ile linux yazdi
+Debian tabanli open source bir cekirdek ubuntu
+Linux > Debian > Ubuntu
+ubuntu: Guney Afrika dilinde Baska nesyeye saygi
+
+--Neden Ubuntu ?
+Ubuntu: 50+ kullanıcı var
+Ubuntu Security
+ücretsiz
+testler
+Open source
+Linux dağıtımlarından en popüler olanıdır.
+
+GNU: Gnu is not Unix
+
+GPL:4 özgürlük ilkesi vardır.
+1.sınırsız kaynak kullanımı
+2.koyasını almak değiştirmek
+3.değiştirme
+4.inceleme
+
+Sanal makinada ubuntu kurulumu
